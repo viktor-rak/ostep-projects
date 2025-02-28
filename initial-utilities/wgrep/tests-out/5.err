@@ -1,2 +1,0 @@
-malloc(): corrupted top size
-../../tester/run-tests.sh: line 27: 28977 Aborted                 (core dumped) ./wgrep alksdjfhalskdfhjasdlkfjhadslkfjhasdlkfjhasdlkfjhasdlkfjhdaslkfjhadslkfjhasdlkfjhadslkfjhdsalkjfhsadlkjfh tests/5.in
