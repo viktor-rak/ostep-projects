@@ -22,7 +22,11 @@ int main(int argc, char* argv[]) {
     strcpy(tgt, argv[1]);
 
     if (argc == 2) {
-        file = stdin;
+        while ((fgets(buf, sizeof(buf), stdin)) != NULL) {
+            if (strstr(buf, tgt) != NULL) {
+                printf("%s", buf);
+            }
+        }
         //TODO: now read with fgets and use similar comparison logic
         //maybe make a function for strstr logic.
         //at this point i just need to handle stdout now
